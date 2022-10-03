@@ -1,0 +1,5 @@
+Assets:
+
+Logo Gilles
+Datei: '/frontend_react/assets/logo.png'
+© Gilles Nikles
