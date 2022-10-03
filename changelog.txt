@@ -1,3 +1,12 @@
+Version 2022-10-03:
+– Sanity Backend added and initialised
+    - Defining Schemas
+    – Filling Schemas with Data
+– Added sources-File, in which sources for the portfolio-app will be stored
+– react-Frontend created (npx create-react-app frontend_react)
+
+
+
 Version 2022-09-28:
 – Create README.md
 – Create changelog.txt
