@@ -1,5 +1,12 @@
 Assets:
-
 Logo Gilles
 Datei: '/frontend_react/assets/logo.png'
 © Gilles Nikles
+
+Fonts:
+Menlo Font
+https://www.cdnfonts.com/menlo.font
+
+Inspiration:
+JSMastery
+https://www.youtube.com/watch?v=3HNyXCPDQ7Q&list=PLO8fB8Eya9_5laDmdKeWmD5d2khBtvBW1&index=3
