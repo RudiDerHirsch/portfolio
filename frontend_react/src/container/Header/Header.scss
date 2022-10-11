@@ -4,6 +4,8 @@
   background-size: cover;
   background-repeat: repeat;
   background-position: center;
+  padding-top: 15rem;
+  padding-bottom: 10rem;
 
   .app__wrapper {
     padding: 0;
@@ -36,7 +38,7 @@
 }
 
 .app__header-info {
-  flex: 0.65;
+  flex: 0.5;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -57,103 +59,43 @@
   flex-direction: column;
   text-align: left;
 
-  .badge-cmp,
-  .tag-cmp {
-    padding: 1rem 2rem;
-    border: var(--white-color);
-    border-radius: 15px;
-    flex-direction: row;
-    width: auto;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  }
-
-  .tag-cmp {
-    flex-direction: column;
-    margin-top: 3rem;
-
-    p {
-      width: 100%;
-      text-align: left;
-    }
+  h1 {
+    padding-top: 0.5rem;
   }
 
   .p-first {
     font-family: "Menlo", sans-serif;
-    font-size: rem;
+    font-size: 12px;
     color: var(--crazy-color);
-    width: 100%;
-    text-align: left;
   }
 
-  .p-second {
+  .head-text {
+    text-align: left;
+    align-items: flex-end;
+    color: var(--lightGray-color);
+  }
+
+  .head-text-second {
+    text-align: left;
+    align-items: flex-end;
+    font-size: 30px;
     color: var(--gray-color);
+  }
+
+  .head-text-third {
+    text-align: left;
+    align-items: flex-end;
+    font-size: 20px;
+    color: var(--gray-color);
+  }
+
+  .badge-cmp,
+  .tag-cmp {
+    padding: 1rem 2rem;
   }
 
   @media screen and (max-width: 1200px) {
     justify-content: flex-start;
     align-items: flex-start;
-  }
-}
-
-.app__header-circles {
-  flex: 0.75;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  height: 100%;
-  margin-left: 1rem;
-
-  div {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: var(--white-color);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-
-    img {
-      width: 60%;
-      height: 60%;
-    }
-  }
-
-  div:nth-child(1) {
-    width: 100px;
-    height: 100px;
-  }
-  div:nth-child(2) {
-    margin: 1.75rem;
-    width: 150px;
-    height: 150px;
-  }
-  div:nth-child(3) {
-    width: 70px;
-    height: 70px;
-  }
-
-  @media screen and (min-width: 2000px) {
-    div:nth-child(1) {
-      width: 400px;
-      height: 400px;
-    }
-    div:nth-child(2) {
-      width: 170px;
-      height: 170px;
-    }
-    div:nth-child(3) {
-      width: 200px;
-      height: 200px;
-    }
-  }
-
-  @media screen and (max-width: 1200px) {
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: 0;
-
-    div {
-      margin: 1rem;
-    }
   }
 }

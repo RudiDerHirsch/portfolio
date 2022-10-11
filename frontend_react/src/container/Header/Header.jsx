@@ -28,16 +28,16 @@ const Header = () => {
             <div style={{ marginLeft: 20 }}>
               <p className="p-first">hello, my name is</p>
               <h1 className="head-text">Gilles Nikles.</h1>
+              <h1 className="head-text-second">
+                Let us build something fantastic.
+              </h1>
+              <h1 className="head-text-third">Web Engineering and Design</h1>
             </div>
-          </div>
-          <div className="tag-cmp app__flex">
-            <p className="p-second">Let us build something fantastic.</p>
-            <p className="p-third">Web Engineering and Design</p>
           </div>
         </div>
       </motion.div>
 
-      <motion.div
+      {/*       <motion.div
         variants={scaleVariants}
         whileInView={scaleVariants.whileInView}
         className="app__header-circles"
@@ -47,7 +47,7 @@ const Header = () => {
             <img src={circle} alt="circle" />
           </div>
         ))}
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 };
