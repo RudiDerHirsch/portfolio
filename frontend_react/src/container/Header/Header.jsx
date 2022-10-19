@@ -1,10 +1,29 @@
 import React from "react";
 import { motion } from "framer-motion";
+import TextTransition, { presets } from "react-text-transition";
 
 import "./Header.scss";
 import "../../scripts/mouse/mousemove";
 
+const TEXTS = [
+  "Web Engineer",
+  "Software Engineer",
+  "Design",
+  "Software Design",
+  "Software Architecture",
+];
+
 const Header = () => {
+  const [index, setIndex] = React.useState(0);
+
+  React.useEffect(() => {
+    const intervalId = setInterval(
+      () => setIndex((index) => index + 1),
+      2000 // every 3 seconds
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
+
   return (
     <div id="home" className="app__header app__flex">
       <motion.div
@@ -20,7 +39,11 @@ const Header = () => {
               <h1 className="head-text-second">
                 Let us build something fantastic.
               </h1>
-              <h1 className="head-text-third">Web Engineering and Design</h1>
+              <h1 className="head-text-third">
+                <TextTransition springConfig={presets.wobbly}>
+                  {TEXTS[index % TEXTS.length]}
+                </TextTransition>
+              </h1>
             </div>
           </div>
         </div>
