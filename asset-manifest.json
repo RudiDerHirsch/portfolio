@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b8929af1.css",
-    "main.js": "/portfolio/static/js/main.dcbdbd1b.js",
+    "main.css": "/portfolio/static/css/main.0efd5114.css",
+    "main.js": "/portfolio/static/js/main.fe052bf4.js",
     "static/media/about04.png": "/portfolio/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/portfolio/static/media/about02.7a3df03410ee756268ec.png",
+    "static/media/bgIMG.png": "/portfolio/static/media/bgIMG.de64febc9e3a1f47e0c7.png",
     "static/media/about01.png": "/portfolio/static/media/about01.080509de05322b7aafda.png",
     "static/media/profile.png": "/portfolio/static/media/profile.ee489764521abe34026b.png",
-    "static/media/bgIMG.png": "/portfolio/static/media/bgIMG.5285d3b37291bf98171a.png",
     "static/media/bgBalls.png": "/portfolio/static/media/bgBalls.f6d7bc37996f9ab25bb7.png",
     "static/media/about03.png": "/portfolio/static/media/about03.c26c2547bb1a423cf283.png",
     "static/media/spotify.png": "/portfolio/static/media/spotify.2b5e9be1eb1ab501e7cd.png",
@@ -29,11 +29,11 @@
     "static/media/skype.png": "/portfolio/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/portfolio/index.html",
     "static/media/circle.svg": "/portfolio/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.b8929af1.css.map": "/portfolio/static/css/main.b8929af1.css.map",
-    "main.dcbdbd1b.js.map": "/portfolio/static/js/main.dcbdbd1b.js.map"
+    "main.0efd5114.css.map": "/portfolio/static/css/main.0efd5114.css.map",
+    "main.fe052bf4.js.map": "/portfolio/static/js/main.fe052bf4.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8929af1.css",
-    "static/js/main.dcbdbd1b.js"
+    "static/css/main.0efd5114.css",
+    "static/js/main.fe052bf4.js"
   ]
 }
