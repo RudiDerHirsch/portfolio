@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 import "./About.scss";
+import { images } from "../../constants/";
 
 const About = () => {
   const githubUser = "gilluuu";
@@ -21,18 +22,29 @@ const About = () => {
 
   return (
     <div className="app__profiles">
-      <div>
-        <h1>Github Projects</h1>
+      <h1>Github Projects</h1>
+      <motion.div
+        whileInView={{ opacity: 1 }}
+        whileHover={{ scale: 1.1 }}
+        transition={{ duration: 0.5, type: "tween" }}
+        className="app__profile-item"
+      >
         {githubData.map((ghData) => {
           return (
             <div key={ghData.id}>
-              <h2>{ghData.name}</h2>
-              <p>{ghData.description}</p>
+              <img src="portfolio" />
+              <h2 className="bold-text" style={{ marginTop: 20 }}>
+                {ghData.name}
+              </h2>
+              <p className="p-text" style={{ marginTop: 10 }}>
+                {ghData.description}
+              </p>
               <p>{ghData.language}</p>
             </div>
           );
-        })}
-      </div>
+        })}{" "}
+      </motion.div>
+      ;
     </div>
   );
 };
