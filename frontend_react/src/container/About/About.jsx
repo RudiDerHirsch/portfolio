@@ -32,19 +32,19 @@ const About = () => {
             className="app__profile-item"
             key={ghData.id + index}
           >
-            <img
-              src={require(`../../assets/${ghData.name}.png`)}
-              alt={ghData.name}
-            />
-            <h2 className="bold-text" style={{ marginTop: 20 }}>
-              {ghData.name}
-            </h2>
-            <p className="p-text" style={{ marginTop: 10 }}>
-              {ghData.description}
-            </p>
-            <p className="p-lang" style={{ marginTop: 10 }}>
-              Primary Language: {ghData.language}
-            </p>
+            <a href={ghData.html_url} target="_blank">
+              <img
+                src={require(`../../assets/${ghData.name}.png`)}
+                alt={ghData.name}
+              />
+              <h2 style={{ marginTop: 20 }}>{ghData.name}</h2>
+              <p className="p-text" style={{ marginTop: 10 }}>
+                {ghData.description}
+              </p>
+              <p className="p-lang" style={{ marginTop: 10 }}>
+                Primary Language: {ghData.language}
+              </p>
+            </a>
           </motion.div>
         ))}
       </div>
