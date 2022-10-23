@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0e72cc5e.css",
-    "main.js": "/portfolio/static/js/main.7a95a0e2.js",
+    "main.css": "/portfolio/static/css/main.78d089ad.css",
+    "main.js": "/portfolio/static/js/main.0d7a9c79.js",
     "static/media/about04.png": "/portfolio/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/portfolio/static/media/about02.7a3df03410ee756268ec.png",
     "static/media/bgIMG.png": "/portfolio/static/media/bgIMG.de64febc9e3a1f47e0c7.png",
@@ -13,13 +13,15 @@
     "static/media/about03.png": "/portfolio/static/media/about03.c26c2547bb1a423cf283.png",
     "static/media/spotify.png": "/portfolio/static/media/spotify.2b5e9be1eb1ab501e7cd.png",
     "static/media/nb.png": "/portfolio/static/media/nb.98f3253e32cc67a4cb5e.png",
-    "static/media/portfolio.png": "/portfolio/static/media/portfolio.15c3a99bfa4e624cd0bc.png",
+    "static/media/mySAGW-Assistant.png": "/portfolio/static/media/mySAGW-Assistant.abfce26797d7274def01.png",
     "static/media/asus.png": "/portfolio/static/media/asus.514bc34955008a92e09f.png",
-    "static/media/mySAGW-Assistant.png": "/portfolio/static/media/mySAGW-Assistant.4cfd5709009cbd1f5c9f.png",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.a5492d0fedf030ee9857.png",
     "static/media/adidas.png": "/portfolio/static/media/adidas.83df8153294f9137d308.png",
     "static/media/bolt.png": "/portfolio/static/media/bolt.64e7d9d30ece478ef3a0.png",
     "static/media/redux.png": "/portfolio/static/media/redux.c9be37e0fece29c624b0.png",
     "static/media/sass.png": "/portfolio/static/media/sass.36e863bfbcb25c109d00.png",
+    "static/media/WSEN-Telbuch.png": "/portfolio/static/media/WSEN-Telbuch.d00cdb16d07c6de17856.png",
+    "static/media/python.png": "/portfolio/static/media/python.d00cdb16d07c6de17856.png",
     "static/media/node.png": "/portfolio/static/media/node.8683d89cf78ffae3d1f7.png",
     "static/media/cpp.png": "/portfolio/static/media/cpp.9002a804bbfa0354d0b8.png",
     "static/media/graphql.png": "/portfolio/static/media/graphql.0372057049181c5de51a.png",
@@ -33,11 +35,11 @@
     "static/media/skype.png": "/portfolio/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/portfolio/index.html",
     "static/media/circle.svg": "/portfolio/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.0e72cc5e.css.map": "/portfolio/static/css/main.0e72cc5e.css.map",
-    "main.7a95a0e2.js.map": "/portfolio/static/js/main.7a95a0e2.js.map"
+    "main.78d089ad.css.map": "/portfolio/static/css/main.78d089ad.css.map",
+    "main.0d7a9c79.js.map": "/portfolio/static/js/main.0d7a9c79.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e72cc5e.css",
-    "static/js/main.7a95a0e2.js"
+    "static/css/main.78d089ad.css",
+    "static/js/main.0d7a9c79.js"
   ]
 }
