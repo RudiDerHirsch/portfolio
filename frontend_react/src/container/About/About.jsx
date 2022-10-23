@@ -1,9 +1,9 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import { images } from "../../constants/images";
 
 import "./About.scss";
-import { images } from "../../constants/";
 
 const About = () => {
   const githubUser = "gilluuu";
@@ -21,30 +21,29 @@ const About = () => {
   }, []);
 
   return (
-    <div className="app__profiles">
-      <h1>Github Projects</h1>
-      <motion.div
-        whileInView={{ opacity: 1 }}
-        whileHover={{ scale: 1.1 }}
-        transition={{ duration: 0.5, type: "tween" }}
-        className="app__profile-item"
-      >
-        {githubData.map((ghData) => {
-          return (
-            <div key={ghData.id}>
-              <img src="portfolio" />
-              <h2 className="bold-text" style={{ marginTop: 20 }}>
-                {ghData.name}
-              </h2>
-              <p className="p-text" style={{ marginTop: 10 }}>
-                {ghData.description}
-              </p>
-              <p>{ghData.language}</p>
-            </div>
-          );
-        })}{" "}
-      </motion.div>
-      ;
+    <div>
+      <h1 className="app__profiles-head">Github Projects</h1>
+      <div className="app__profiles">
+        {githubData.map((ghData) => (
+          <motion.div
+            whileInView={{ opacity: 1 }}
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 100 }}
+            className="app__profile-item"
+          >
+            <img src={`../../assets/${ghData.name}.png`} alt={ghData.name} />
+            <h2 className="bold-text" style={{ marginTop: 20 }}>
+              {ghData.name}
+            </h2>
+            <p className="p-text" style={{ marginTop: 10 }}>
+              {ghData.description}
+            </p>
+            <p className="p-lang" style={{ marginTop: 10 }}>
+              {ghData.language}
+            </p>
+          </motion.div>
+        ))}
+      </div>
     </div>
   );
 };

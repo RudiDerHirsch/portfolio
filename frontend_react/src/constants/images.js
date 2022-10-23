@@ -35,7 +35,8 @@ import nb from "../assets/nb.png";
 import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
 
-import portfolio from "../assets/github-assets/portfolio.png";
+import portfolio from "../assets/portfolio.png";
+import mySAGW from "../assets/mySAGW-Assistant.png";
 
 export default {
   email,
@@ -72,4 +73,5 @@ export default {
   skype,
   spotify,
   portfolio,
+  mySAGW,
 };
