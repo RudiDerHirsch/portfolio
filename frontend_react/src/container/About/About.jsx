@@ -24,14 +24,18 @@ const About = () => {
     <div>
       <h1 className="app__profiles-head">Github Projects</h1>
       <div className="app__profiles">
-        {githubData.map((ghData) => (
+        {githubData.map((ghData, index) => (
           <motion.div
             whileInView={{ opacity: 1 }}
             whileHover={{ scale: 1.1 }}
             transition={{ type: "spring", stiffness: 100 }}
             className="app__profile-item"
+            key={ghData.id + index}
           >
-            <img src={`../../assets/${ghData.name}.png`} alt={ghData.name} />
+            <img
+              src={require(`../../assets/${ghData.name}.png`)}
+              alt={ghData.name}
+            />
             <h2 className="bold-text" style={{ marginTop: 20 }}>
               {ghData.name}
             </h2>
@@ -39,7 +43,7 @@ const About = () => {
               {ghData.description}
             </p>
             <p className="p-lang" style={{ marginTop: 10 }}>
-              {ghData.language}
+              Primary Language: {ghData.language}
             </p>
           </motion.div>
         ))}
