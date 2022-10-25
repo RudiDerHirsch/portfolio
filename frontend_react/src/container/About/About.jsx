@@ -1,12 +1,10 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { images } from "../../constants/images";
 
 import "./About.scss";
 
 const About = () => {
-  const githubUser = "gilluuu";
   const [githubData, setGithubData] = useState([]);
 
   const fetchData = async () => {
