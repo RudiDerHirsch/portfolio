@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("http://fonts.cdnfonts.com/css/menlo");
+
+* {
+  font-family: "DM Sans", sans-serif;
+}
+
 .skills-container {
   display: flex;
   align-items: center;
@@ -32,6 +39,10 @@
   text-align: justify;
 }
 
+.skills-title {
+  font-family: "DM Sans", sans-serif;
+}
+
 .skills-description-text {
   font-size: 12px;
 }
@@ -58,7 +69,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
-  background-color: var(--crazy-color);
+  background-color: var(--secondary-color);
   height: 30px;
   width: 30px;
   margin: 15px 0;
@@ -70,7 +81,7 @@
 .bullet-label {
   font-size: 14px;
   white-space: nowrap;
-  font-family: "Poppins SemiBold";
+  font-weight: 500;
 }
 
 .bullet-logo {
@@ -80,7 +91,7 @@
 
 .selected-bullet {
   color: var(--white);
-  background-color: var(--crazy-color-hover);
+  background-color: var(--gray-color);
   width: 100%;
 }
 
@@ -104,9 +115,8 @@
 }
 
 .skills-main-heading span {
-  color: var(--dark-orange);
+  color: var(--primary-color);
   font-size: 16px;
-  font-family: "Poppins SemiBold";
 }
 
 .experience-description {
@@ -120,27 +130,11 @@
   width: 15px;
   top: 5px;
   border-radius: 50%;
-  background-color: #ff5823;
-}
-
-.skills-sub-heading {
-  font-size: 14px;
-  font-family: "Poppins SemiBold";
-  color: var(--black);
-  margin: 10px 0 0 0;
 }
 
 .skills-heading-description {
   font-size: 12px;
   text-align: justify;
-}
-
-.heading-date {
-  background-color: #ff5823;
-  padding: 4px 12px;
-  font-size: 14px;
-  border-radius: 14px;
-  color: var(--white);
 }
 
 .skill-parent {
@@ -162,20 +156,19 @@
   position: relative;
   height: 15px;
   width: 70%;
-  background-color: #ff5823;
+  background-color: var(--secondary-color);
 }
 
 .skill-percentage .active-percentage-bar {
   height: 15px;
   transition: 0.8s ease;
   position: absolute;
-  background-color: #1f2235;
+  background-color: var(--gray-color);
 }
 
 .skill-parent span {
-  font-family: "Poppins Bold";
   font-size: 16px;
-  color: #ff5823;
+  color: var(--primary-color);
 }
 
 /* IPAD PRO RESPONSIVENESS */
