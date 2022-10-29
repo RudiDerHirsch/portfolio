@@ -14,14 +14,18 @@ const Navbar = () => {
         <img src={images.logo} alt="logo" />
       </div>
       <ul className="app__navbar-links">
-        {["01. home", "02. about", "03. work", "04. skills", "05. contact"].map(
-          (item) => (
-            <li className="app__flex p-text" key={`link-${item}`}>
-              <div />
-              <a href={`#${item}`}>{item}</a>
-            </li>
-          )
-        )}
+        {[
+          "01. home",
+          "02. projects",
+          "03. work and education",
+          "04. skills",
+          "05. contact",
+        ].map((item) => (
+          <li className="app__flex p-text" key={`link-${item}`}>
+            <div />
+            <a href={`#${item}`}>{item}</a>
+          </li>
+        ))}
       </ul>
 
       <div className="app__navbar-menu">
@@ -36,8 +40,8 @@ const Navbar = () => {
             <ul>
               {[
                 "01. home",
-                "02. about",
-                "03. work",
+                "02. projects",
+                "03. work and education",
                 "04. skills",
                 "05. contact",
               ].map((item) => (

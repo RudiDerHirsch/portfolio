@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 
+import { AppWrap } from "../../wrapper";
 import "./Skills.scss";
 
 import ScreenHeading from "../../utilities/ScreenHeading";
@@ -232,4 +233,4 @@ const Skills = (props) => {
   );
 };
 
-export default Skills;
+export default AppWrap(Skills, "04. skills");

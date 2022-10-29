@@ -1,0 +1,79 @@
+.work__timeline-head {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  padding-top: 3rem;
+}
+
+.work__timeline-area {
+  width: 700px;
+  height: 500px;
+  text-decoration: none;
+  position: relative;
+}
+
+.work__timeline-chrono {
+  img {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+.app__about {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+}
+
+.work__timeline {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.app__profile-item {
+  width: 190px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 2rem;
+
+  img {
+    width: 100%;
+    height: 170px;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+
+  @media screen and (min-width: 2000px) {
+    width: 370px;
+    margin: 2rem 4rem;
+
+    img {
+      height: 320px;
+    }
+  }
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.p-lang {
+  font-size: 10px;
+  color: var(--gray-color);
+}

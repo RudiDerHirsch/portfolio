@@ -3,12 +3,16 @@
   font-family: var(--font-base);
 }
 
+.app__primarybg {
+  background-color: var(--primary-color);
+}
+
 .app__whitebg {
   background-color: var(--white-color);
 }
 
-.app__primarybg {
-  background-color: var(--primary-color);
+.app__graybg {
+  background-color: var(--lightestGray-color);
 }
 
 .app__container {
@@ -33,21 +37,6 @@
 
   @media screen and (max-width: 450px) {
     padding: 4rem 1rem 2rem;
-  }
-}
-
-.copyright {
-  width: 100%;
-  padding: 2rem 0 0;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
-
-  p {
-    text-transform: uppercase;
-    color: var(--white-color);
   }
 }
 

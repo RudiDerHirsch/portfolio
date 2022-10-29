@@ -2,9 +2,10 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
-import "./About.scss";
+import { AppWrap } from "../../wrapper";
+import "./Projects.scss";
 
-const About = () => {
+const Projects = () => {
   const [githubData, setGithubData] = useState([]);
 
   const fetchData = async () => {
@@ -50,4 +51,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AppWrap(Projects, "02. projects");

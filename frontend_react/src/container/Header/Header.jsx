@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import TextTransition, { presets } from "react-text-transition";
 
+import { AppWrap } from "../../wrapper";
 import "./Header.scss";
 import "../../scripts/mouse/mousemove";
 
@@ -52,4 +53,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default AppWrap(Header, "01. home");
