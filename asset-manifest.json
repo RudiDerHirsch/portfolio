@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.78d089ad.css",
-    "main.js": "/portfolio/static/js/main.0d7a9c79.js",
+    "main.css": "/portfolio/static/css/main.86b08482.css",
+    "main.js": "/portfolio/static/js/main.b6aa293b.js",
     "static/media/about04.png": "/portfolio/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/portfolio/static/media/about02.7a3df03410ee756268ec.png",
     "static/media/bgIMG.png": "/portfolio/static/media/bgIMG.de64febc9e3a1f47e0c7.png",
@@ -15,6 +15,7 @@
     "static/media/nb.png": "/portfolio/static/media/nb.98f3253e32cc67a4cb5e.png",
     "static/media/mySAGW-Assistant.png": "/portfolio/static/media/mySAGW-Assistant.abfce26797d7274def01.png",
     "static/media/asus.png": "/portfolio/static/media/asus.514bc34955008a92e09f.png",
+    "static/media/Logo SAGW.png": "/portfolio/static/media/Logo SAGW.4cfd5709009cbd1f5c9f.png",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.a5492d0fedf030ee9857.png",
     "static/media/adidas.png": "/portfolio/static/media/adidas.83df8153294f9137d308.png",
     "static/media/bolt.png": "/portfolio/static/media/bolt.64e7d9d30ece478ef3a0.png",
@@ -33,13 +34,17 @@
     "static/media/css.png": "/portfolio/static/media/css.5721a3928fe43de6baf8.png",
     "static/media/git.png": "/portfolio/static/media/git.a54d3fa44e02f2f61e69.png",
     "static/media/skype.png": "/portfolio/static/media/skype.c8d7ee175da5b4c8a8ab.png",
+    "static/media/interests.svg": "/portfolio/static/media/interests.3014a4935871d5e93718.svg",
+    "static/media/work-history.svg": "/portfolio/static/media/work-history.ca270689e0e6c4d88e2d.svg",
+    "static/media/education.svg": "/portfolio/static/media/education.3b9406ebf1ad626522d8.svg",
     "index.html": "/portfolio/index.html",
+    "static/media/programming-skills.svg": "/portfolio/static/media/programming-skills.9dc48f931681c49f7f04.svg",
     "static/media/circle.svg": "/portfolio/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.78d089ad.css.map": "/portfolio/static/css/main.78d089ad.css.map",
-    "main.0d7a9c79.js.map": "/portfolio/static/js/main.0d7a9c79.js.map"
+    "main.86b08482.css.map": "/portfolio/static/css/main.86b08482.css.map",
+    "main.b6aa293b.js.map": "/portfolio/static/js/main.b6aa293b.js.map"
   },
   "entrypoints": [
-    "static/css/main.78d089ad.css",
-    "static/js/main.0d7a9c79.js"
+    "static/css/main.86b08482.css",
+    "static/js/main.b6aa293b.js"
   ]
 }
