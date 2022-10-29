@@ -4,6 +4,12 @@ This project was created as part of the Bachelor's degree programme "Wirtschafts
 
 The author of this work is Gilles Nikles (niklg1).
 
+# Github Pages
+
+Check it out 👇🏼
+
+https://gillu.dev
+
 # Resources
 
 The following resources were used to create this project:
