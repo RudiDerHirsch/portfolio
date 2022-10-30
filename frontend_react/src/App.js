@@ -17,9 +17,8 @@ const App = () => {
       <div className="app__whitebg">
         <Skills />
       </div>
-      <div className="app__graybg">
-        <Footer />
-      </div>
+
+      <Footer />
     </div>
   );
 };

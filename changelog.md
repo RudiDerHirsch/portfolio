@@ -1,3 +1,9 @@
+# Version 2022-10-30:
+
+- Added MotionWrap
+- Fixed issues with Skills-section
+- Finishing Contact-Form
+
 # Version 2022-10-29:
 
 - Overall clean-up
@@ -14,7 +20,7 @@ And a lot more...
 
 - Updated Header
 - Updated About (Github Projects)
-- Script mousemove works
+- Implemented MouseMove.js
 - General Updates
 
 # Version 2022-10-09:

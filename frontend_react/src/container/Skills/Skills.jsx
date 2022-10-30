@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import { AppWrap } from "../../wrapper";
+import { AppWrap, MotionWrap } from "../../wrapper";
 import "./Skills.scss";
 
 import ScreenHeading from "../../utilities/ScreenHeading";
@@ -151,4 +151,8 @@ const Skills = (props) => {
   );
 };
 
-export default AppWrap(Skills, "04. skills");
+export default AppWrap(
+  MotionWrap(Skills, "app__skills"),
+  "04. skills",
+  "app_whitebg"
+);

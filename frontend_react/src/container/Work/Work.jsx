@@ -1,7 +1,7 @@
 import React from "react";
 import { Chrono } from "react-chrono";
 
-import { AppWrap } from "../../wrapper";
+import { AppWrap, MotionWrap } from "../../wrapper";
 import "./Work.scss";
 
 const Work = () => {
@@ -56,4 +56,8 @@ const Work = () => {
   );
 };
 
-export default AppWrap(Work, "03. work and education");
+export default AppWrap(
+  MotionWrap(Work, "app__works"),
+  "03. work and education",
+  "app_graybg"
+);
