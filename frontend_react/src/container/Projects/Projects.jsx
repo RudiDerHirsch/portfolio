@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
-import { AppWrap } from "../../wrapper";
+import { AppWrap, MotionWrap } from "../../wrapper";
 import "./Projects.scss";
 
 const Projects = () => {
@@ -51,4 +51,8 @@ const Projects = () => {
   );
 };
 
-export default AppWrap(Projects, "02. projects");
+export default AppWrap(
+  MotionWrap(Projects, "app__about"),
+  "02. projects",
+  "app__whitebg"
+);
