@@ -1,25 +1,26 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
 
-import { images } from "../../constants";
 import { AppWrap, MotionWrap } from "../../wrapper";
 
 import "./Footer.scss";
 
 const Footer = () => {
   const [formData, setFormData] = useState({
-    name: "",
-    email: "",
+    user_name: "",
+    user_email: "",
     message: "",
   });
+
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  const { name, email, message } = formData;
+  const { user_name, user_email, message } = formData;
 
   const handleChangeInput = (e) => {
-    const { name, value } = e.target;
+    const { user_name, value } = e.target;
 
-    setFormData({ ...formData, [name]: value });
+    setFormData({ ...formData, [user_name]: value });
   };
 
   const handleSubmit = () => {
@@ -27,10 +28,26 @@ const Footer = () => {
 
     const contact = {
       _type: "contact",
-      name: name,
-      email: email,
+      user_name: user_name,
+      user_email: user_email,
       message: message,
     };
+
+    emailjs
+      .sendForm(
+        "service_7dews7y",
+        "template_5cg99p9",
+        formData.current,
+        "ZqFshEzpKnwkkmJkx"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
 
   return (
@@ -44,7 +61,7 @@ const Footer = () => {
               type="text"
               placeholder="Your Name"
               name="name"
-              value={name}
+              value={user_name}
               onChange={handleChangeInput}
             />
           </div>
@@ -54,17 +71,7 @@ const Footer = () => {
               type="email"
               placeholder="Email"
               name="email"
-              value={email}
-              onChange={handleChangeInput}
-            />
-          </div>
-          <div className="app__flex">
-            <input
-              className="p-text"
-              type="text"
-              placeholder="Your Name"
-              name="name"
-              value={name}
+              value={user_email}
               onChange={handleChangeInput}
             />
           </div>
