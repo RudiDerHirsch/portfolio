@@ -120,6 +120,8 @@ const Work = () => {
                 id={work.name}
                 effect="solid"
                 arrowColor="#fff"
+                whileInView={{ opacity: [0, 1] }}
+                transition={{ duration: 2 }}
                 className="skills-tooltip"
               >
                 {work.details}
