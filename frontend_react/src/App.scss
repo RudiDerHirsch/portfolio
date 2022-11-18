@@ -44,7 +44,7 @@
   font-size: 2.75rem;
   font-weight: 800;
   text-align: center;
-  color: var(--white-color);
+  color: var(--black-color);
   text-transform: capitalize;
 
   span {
@@ -74,7 +74,7 @@
 .bold-text {
   font-size: 1rem;
   font-weight: 800;
-  color: var(--white-color);
+  color: var(--primary-color);
   text-align: left;
 
   @media screen and (min-width: 2000px) {

@@ -49,28 +49,26 @@ const Work = () => {
     },
   ];
 
-  const work = [
+  const exp = [
     {
-      title: "11.2016–today",
-      cardTitle:
+      duration: "11.2016",
+      company:
         "Schweizerische Akademie der Geistes- und Sozialwissenschaften (SAGW)",
-      cardSubtitle: "IT & Web Support.",
-      cardDetailedText:
-        "Hard- und Software-Management. Webmaster (Magnolia und Typo3).",
+      name: "IT & Web Support.",
+      details: "Hard- und Software-Management. Webmaster (Magnolia und Typo3).",
     },
     {
-      title: "09.2016–11.2016",
-      cardTitle: "Schenker Storen AG",
-      cardSubtitle: "Temporäre Mitarbeit Office",
-      cardDetailedText:
+      duration: "09.2016–11.2016",
+      company: "Schenker Storen AG",
+      name: "Temporäre Mitarbeit Office",
+      details:
         "Verkaufs- und Beratungsgespräche. Unterstützung Geschäftsleitung",
     },
     {
-      title: "08.2012–07.2015",
-      cardTitle: "Ruckstuhl AG",
-      cardSubtitle: "Lehre Kaufmann EFZ",
-      cardDetailedText:
-        "Verkauf Innendienst (CH/DE/Export). Einkauf. Buchhaltung. HR",
+      duration: "08.2012–07.2015",
+      company: "Ruckstuhl AG",
+      name: "Lehre Kaufmann EFZ",
+      details: "Verkauf Innendienst (CH/DE/Export). Einkauf. Buchhaltung. HR",
     },
   ];
 
@@ -98,6 +96,35 @@ const Work = () => {
               </div>
               <p className="p-text">{skill.name}</p>
             </motion.div>
+          ))}
+        </motion.div>
+
+        <motion.div className="app__skills-exp">
+          {exp.map((work) => (
+            <>
+              <motion.div
+                whileInView={{ opacity: [0, 1] }}
+                transition={{ duration: 0.5 }}
+                className="app__skills-exp-work"
+                data-tip
+                data-for={work.name}
+                key={work.name}
+              >
+                <div className="app__skills-exp-year">
+                  <p className="bold-text">{work.duration}</p>
+                </div>
+                <h4 className="bold-text">{work.name}</h4>
+                <p className="p-text">{work.company}</p>
+              </motion.div>
+              <ReactTooltip
+                id={work.name}
+                effect="solid"
+                arrowColor="#fff"
+                className="skills-tooltip"
+              >
+                {work.details}
+              </ReactTooltip>
+            </>
           ))}
         </motion.div>
       </div>

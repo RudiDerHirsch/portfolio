@@ -14,10 +14,6 @@ const App = () => {
       <div className="app__graybg">
         <Work />
       </div>
-      <div className="app__whitebg">
-        <Skills />
-      </div>
-
       <Footer />
     </div>
   );

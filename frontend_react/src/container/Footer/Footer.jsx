@@ -100,5 +100,5 @@ const Footer = () => {
 export default AppWrap(
   MotionWrap(Footer, "app__footer"),
   "05. contact",
-  "app__graybg"
+  "app__whitebg"
 );
