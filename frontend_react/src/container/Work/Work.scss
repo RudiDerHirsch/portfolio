@@ -1,79 +1,86 @@
-.work__timeline-head {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 5rem;
-  padding-top: 3rem;
+.head-text {
+  color: black;
 }
 
-.work__timeline-area {
-  width: 700px;
-  height: 500px;
-  text-decoration: none;
-  position: relative;
-}
-
-.work__timeline-chrono {
-  img {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
-}
-
-.app__about {
+.app__skills {
   flex: 1;
   width: 100%;
   flex-direction: column;
 }
 
-.work__timeline {
+.app__skills-container {
+  width: 80%;
+  margin-top: 3rem;
+
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  margin-top: 2rem;
+  flex-direction: row;
+
+  @media screen and (max-width: 900px) {
+    width: 100%;
+    flex-direction: column;
+  }
 }
 
-.app__profile-item {
-  width: 190px;
+.app__skills-list {
+  flex: 1;
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-start;
-  flex-direction: column;
-  margin: 2rem;
 
-  img {
-    width: 100%;
-    height: 170px;
-    border-radius: 15px;
-    object-fit: cover;
+  margin-right: 5rem;
+
+  @media screen and (max-width: 900px) {
+    margin-right: 0;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.app__skills-item {
+  flex-direction: column;
+  text-align: center;
+
+  margin: 1rem;
+
+  transition: all 0.3s ease-in-out;
+
+  div {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #fff;
+
+    img {
+      width: 50%;
+      height: 50%;
+    }
+
+    &:hover {
+      box-shadow: 0 0 25px #fef4f5;
+    }
+
+    @media screen and (min-width: 2000px) {
+      width: 150px;
+      height: 150px;
+    }
+
+    @media screen and (max-width: 450px) {
+      width: 70px;
+      height: 70px;
+    }
+  }
+
+  p {
+    font-weight: 500;
+    margin-top: 0.5rem;
   }
 
   @media screen and (min-width: 2000px) {
-    width: 370px;
-    margin: 2rem 4rem;
+    margin: 1rem 2rem;
 
-    img {
-      height: 320px;
+    p {
+      margin-top: 1rem;
     }
   }
-}
-
-h2 {
-  font-size: 20px;
-  font-weight: 500;
-  color: black;
-}
-
-a {
-  text-decoration: none;
-}
-
-.p-lang {
-  font-size: 10px;
-  color: var(--gray-color);
 }
