@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import ReactTooltip from "react-tooltip";
 
@@ -51,21 +51,21 @@ const Work = () => {
 
   const exp = [
     {
-      duration: "11.2016",
+      year: "11.2016",
       company:
         "Schweizerische Akademie der Geistes- und Sozialwissenschaften (SAGW)",
       name: "IT & Web Support.",
       details: "Hard- und Software-Management. Webmaster (Magnolia und Typo3).",
     },
     {
-      duration: "09.2016–11.2016",
+      year: "09.2016–11.2016",
       company: "Schenker Storen AG",
       name: "Temporäre Mitarbeit Office",
       details:
         "Verkaufs- und Beratungsgespräche. Unterstützung Geschäftsleitung",
     },
     {
-      duration: "08.2012–07.2015",
+      year: "08.2012–07.2015",
       company: "Ruckstuhl AG",
       name: "Lehre Kaufmann EFZ",
       details: "Verkauf Innendienst (CH/DE/Export). Einkauf. Buchhaltung. HR",
@@ -111,7 +111,7 @@ const Work = () => {
                 key={work.name}
               >
                 <div className="app__skills-exp-year">
-                  <p className="bold-text">{work.duration}</p>
+                  <p className="bold-text">{work.year}</p>
                 </div>
                 <h4 className="bold-text">{work.name}</h4>
                 <p className="p-text">{work.company}</p>

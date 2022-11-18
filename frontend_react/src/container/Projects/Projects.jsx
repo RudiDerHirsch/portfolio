@@ -21,7 +21,7 @@ const Projects = () => {
 
   return (
     <div>
-      <h1 className="app__profiles-head">Github Projects</h1>
+      <h2 className="head-text">Github Projects</h2>
       <div className="app__profiles">
         {githubData.map((ghData, index) => (
           <motion.div
