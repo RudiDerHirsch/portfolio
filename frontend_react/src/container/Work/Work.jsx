@@ -13,7 +13,7 @@ const Work = () => {
       icon: "react.png",
     },
     {
-      name: "Javascript",
+      name: "JavaScript",
       bgColor: "",
       icon: "javascript.png",
     },
@@ -46,6 +46,11 @@ const Work = () => {
       name: "Git",
       bgColor: "",
       icon: "git.png",
+    },
+    {
+      name: "TypeScript",
+      bgColor: "",
+      icon: "typescript.png",
     },
   ];
 
