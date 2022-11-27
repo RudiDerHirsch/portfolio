@@ -6,9 +6,8 @@ const NavigationDots = ({ active }) => {
       {[
         "01. home",
         "02. projects",
-        "03. work and education",
-        "04. skills",
-        "05. contact",
+        "03. skills and experience",
+        "04. contact",
       ].map((item, index) => (
         <a
           href={`#${item}`}

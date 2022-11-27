@@ -141,6 +141,6 @@ const Work = () => {
 
 export default AppWrap(
   MotionWrap(Work, "app__works"),
-  "03. work and education",
+  "03. skills and experiences",
   "app_graybg"
 );
