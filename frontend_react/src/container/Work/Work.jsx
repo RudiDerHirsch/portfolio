@@ -56,7 +56,13 @@ const Work = () => {
 
   const exp = [
     {
-      year: "11.2016",
+      year: "03.2023",
+      company: "Artd Webdesign GmbH",
+      name: "Web Project Manager",
+      details: "Projektleiter",
+    },
+    {
+      year: "11.2016–02.2023",
       company:
         "Schweizerische Akademie der Geistes- und Sozialwissenschaften (SAGW)",
       name: "IT & Web Support.",
