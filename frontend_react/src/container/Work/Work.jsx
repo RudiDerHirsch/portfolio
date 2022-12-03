@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ReactTooltip from "react-tooltip";
+import { SkillBar } from "react-skills";
 
 import { AppWrap, MotionWrap } from "../../wrapper";
 import "./Work.scss";
@@ -11,46 +12,55 @@ const Work = () => {
       name: "ReactJS",
       bgColor: "",
       icon: "react.png",
+      level: 65,
     },
     {
       name: "JavaScript",
       bgColor: "",
       icon: "javascript.png",
+      level: 65,
     },
     {
       name: "HTML",
       bgColor: "",
       icon: "html.png",
+      level: 80,
     },
     {
       name: "CSS",
       bgColor: "",
       icon: "css.png",
+      level: 75,
     },
     {
       name: "Python",
       bgColor: "",
       icon: "python.png",
+      level: 75,
     },
     {
       name: "Figma",
       bgColor: "",
       icon: "figma.png",
+      level: 50,
     },
     {
       name: "Node JS",
       bgColor: "",
       icon: "node.png",
+      level: 60,
     },
     {
       name: "Git",
       bgColor: "",
       icon: "git.png",
+      level: 90,
     },
     {
       name: "TypeScript",
       bgColor: "",
       icon: "typescript.png",
+      level: 60,
     },
   ];
 
@@ -90,23 +100,45 @@ const Work = () => {
       <div className="app__skills-container">
         <motion.div className="app__skills-list">
           {skills.map((skill) => (
-            <motion.div
-              whileInView={{ opacity: [0, 1] }}
-              transition={{ duration: 0.5 }}
-              className="app__skills-item app__flex"
-              key={skill.name}
-            >
-              <div
-                className="app__flex"
-                style={{ backgroundColor: skill.bgColor }}
+            <>
+              <motion.div
+                whileInView={{ opacity: [0, 1] }}
+                transition={{ duration: 0.5 }}
+                className="app__skills-item app__flex"
+                data-tip
+                data-for={skill.name}
+                key={skill.name}
               >
-                <img
-                  src={require(`../../assets/${skill.icon}`)}
-                  alt={skill.name}
+                <div
+                  className="app__flex"
+                  style={{ backgroundColor: skill.bgColor }}
+                >
+                  <img
+                    src={require(`../../assets/${skill.icon}`)}
+                    alt={skill.name}
+                  />
+                </div>
+                <p className="p-text">{skill.name}</p>
+              </motion.div>
+              <ReactTooltip
+                id={skill.name}
+                effect="solid"
+                arrowColor="#fff"
+                whileInView={{ opacity: [0, 1] }}
+                transition={{ duration: 2 }}
+                className="bar-tooltip"
+              >
+                Skill-Level:
+                <SkillBar
+                  duration={2}
+                  name={skill.name}
+                  level={skill.level}
+                  color="#ced6f3"
+                  flat="true"
+                  labelWidth={0}
                 />
-              </div>
-              <p className="p-text">{skill.name}</p>
-            </motion.div>
+              </ReactTooltip>
+            </>
           ))}
         </motion.div>
 
