@@ -12,10 +12,4 @@ https://gillu.dev
 
 # Resources
 
-The following resources were used to create this project:
-
-jsmastery: Build and Deploy a Fullstack Responsive Portfolio Website | ULTIMATE Step By Step Tutorial 2022
-(https://www.youtube.com/watch?v=3HNyXCPDQ7Q&list=PLO8fB8Eya9_5laDmdKeWmD5d2khBtvBW1&index=3)
-
-SASS-Language (SCSS):
-https://sass-lang.com/documentation/
+See file 'sources.md'
