@@ -6,7 +6,7 @@ const NavigationDots = ({ active }) => {
       {[
         "01. home",
         "02. projects",
-        "03. skills and experience",
+        "03. skills and experiences",
         "04. contact",
       ].map((item, index) => (
         <a
