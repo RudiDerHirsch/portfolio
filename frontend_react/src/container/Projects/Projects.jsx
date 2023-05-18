@@ -23,7 +23,7 @@ const Projects = () => {
     <div>
       <h2 className="head-text">Github Projects</h2>
       <div className="app__profiles">
-        {githubData.map((ghData, index) => (
+        {githubData.slice(2,6).map((ghData, index) => (
           <motion.div
             whileInView={{ opacity: 1 }}
             whileHover={{ scale: 1.1 }}

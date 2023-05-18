@@ -12,6 +12,7 @@ import logo from "../assets/logo.png";
 
 import portfolio from "../assets/portfolio.png";
 import mySAGW from "../assets/mySAGW-Assistant.png";
+import a4agoodtime from "../assets/a4agoodtime.png";
 
 export default {
   css,
@@ -26,4 +27,5 @@ export default {
   logo,
   portfolio,
   mySAGW,
+  a4agoodtime,
 };
