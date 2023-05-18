@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c59d965d.css",
-    "main.js": "/portfolio/static/js/main.4f43c95a.js",
+    "main.css": "/portfolio/static/css/main.89106450.css",
+    "main.js": "/portfolio/static/js/main.2b63bc61.js",
     "static/media/bgIMG.png": "/portfolio/static/media/bgIMG.de64febc9e3a1f47e0c7.png",
     "static/media/bgBalls.png": "/portfolio/static/media/bgBalls.f6d7bc37996f9ab25bb7.png",
     "static/media/VIVO-SAGW.png": "/portfolio/static/media/VIVO-SAGW.abfce26797d7274def01.png",
     "static/media/Vitro-SAGW.png": "/portfolio/static/media/Vitro-SAGW.abfce26797d7274def01.png",
     "static/media/mySAGW-Assistant.png": "/portfolio/static/media/mySAGW-Assistant.abfce26797d7274def01.png",
+    "static/media/hackday-automatisierung-berichte .png": "/portfolio/static/media/hackday-automatisierung-berichte .2d1a34aaef4f28712af3.png",
+    "static/media/hackday-automatisierung-berichte.png": "/portfolio/static/media/hackday-automatisierung-berichte.2d1a34aaef4f28712af3.png",
+    "static/media/a4agoodtime.png": "/portfolio/static/media/a4agoodtime.8b0c8c88d0d43af19760.png",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.a5492d0fedf030ee9857.png",
+    "static/media/awesome-deep-learning.png": "/portfolio/static/media/awesome-deep-learning.7deeb2f2d7a89cbcfe5c.png",
+    "static/media/awesome-macOS.png": "/portfolio/static/media/awesome-macOS.a8fd31a541ee98e25b6e.png",
     "static/media/WSEN-Telbuch.png": "/portfolio/static/media/WSEN-Telbuch.d00cdb16d07c6de17856.png",
     "static/media/python.png": "/portfolio/static/media/python.d00cdb16d07c6de17856.png",
     "static/media/node.png": "/portfolio/static/media/node.8683d89cf78ffae3d1f7.png",
@@ -16,11 +21,11 @@
     "static/media/css.png": "/portfolio/static/media/css.5721a3928fe43de6baf8.png",
     "static/media/git.png": "/portfolio/static/media/git.a54d3fa44e02f2f61e69.png",
     "index.html": "/portfolio/index.html",
-    "main.c59d965d.css.map": "/portfolio/static/css/main.c59d965d.css.map",
-    "main.4f43c95a.js.map": "/portfolio/static/js/main.4f43c95a.js.map"
+    "main.89106450.css.map": "/portfolio/static/css/main.89106450.css.map",
+    "main.2b63bc61.js.map": "/portfolio/static/js/main.2b63bc61.js.map"
   },
   "entrypoints": [
-    "static/css/main.c59d965d.css",
-    "static/js/main.4f43c95a.js"
+    "static/css/main.89106450.css",
+    "static/js/main.2b63bc61.js"
   ]
 }
